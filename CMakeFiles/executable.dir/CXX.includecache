@@ -28,10 +28,6 @@ unistd.h
 parser.hpp
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
 
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.cpp
-file_handler.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.hpp
-
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.hpp
 stdio.h
 -
@@ -40,15 +36,9 @@ string
 stdlib.h
 -
 
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp
-iostream
--
-string
--
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.cpp
 parser.hpp
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
-executer.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
 
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
 stdio.h

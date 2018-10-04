@@ -33,3 +33,416 @@ pwd
 pwd
 pwd
 pwd
+pwd
+ls
+ls -la
+pwd
+ls
+ls -la
+open -a Safari
+pwd
+ls
+ls -la
+open -a Safari
+pwd
+pwd
+ls -la
+pwd
+ls -la
+pwd
+pwd
+ls -la
+pwd
+pwd
+pwd
+ls -la
+pwd
+pwd
+pwd
+pwd
+pwd
+ls -la
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+ls -la
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+ls -la
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+ls -la
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+ls 
+ls -l
+ls -la
+cd ..
+cd ..
+cd ...
+cd ..
+pwd
+cd ..
+pwd
+cd ..
+cd ..
+pwd
+cd ..
+cd ..
+ls
+pwd
+pwd
+ls
+ls -l
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+ls 
+ls -l
+ls -la
+cd ..
+cd ..
+cd ...
+cd ..
+pwd
+cd ..
+pwd
+cd ..
+cd ..
+pwd
+cd ..
+cd ..
+ls
+pwd
+pwd
+ls
+ls -l
+open -a Safari
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+ls 
+ls -l
+ls -la
+cd ..
+cd ..
+cd ...
+cd ..
+pwd
+cd ..
+pwd
+cd ..
+cd ..
+pwd
+cd ..
+cd ..
+ls
+pwd
+pwd
+ls
+ls -l
+open -a Safari
+pwdd
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+ls 
+ls -l
+ls -la
+cd ..
+cd ..
+cd ...
+cd ..
+pwd
+cd ..
+pwd
+cd ..
+cd ..
+pwd
+cd ..
+cd ..
+ls
+pwd
+pwd
+ls
+ls -l
+open -a Safari
+pwdd
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+pwd
+ls
+ls -la
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+pwd
+ls
+ls -la
+ls
+ls
+pwd
+ls
+ls -l
+ls -la
+pwd
+cd ..
+pwd
+pwd
+ls
+ls -l
+ls -la
+pwd
+cd ..
+pwd
+open -a Safari
+pwd
+ls
+ls -l
+ls -la
+pwd
+cd ..
+pwd
+open -a Safari
+pwd
+pwd
+ls
+ls -l
+ls -la
+pwd
+cd ..
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+ls
+ls -l
+ls -la
+pwd
+cd ..
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+pwd
+ls
+ls -l
+ls -la
+pwd
+cd ..
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+pwd
+pwd
+ls
+ls -l
+ls -la
+pwd
+cd ..
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+ls
+ls -l
+ls -la
+pwd
+cd ..
+pwd
+open -a Safari
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwd
+open -a Safari
+pwq
+pwd
+open -a Safari
+pwq
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwq
+pwd
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwq
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+open -a Safari
+pwq
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+ls
+ls -la
+ls
+ls -la
+pwd
+ls
+ls -la
+pwd
+pwd
+pwd
+ls
+ls -la
+pwd
+pwd
+pwd
+pwd
+ls
+ls -la
+pwd
+pwd
+pwd
+pwd
+pwd
+ls
+ls -la
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+ls
+ls -la
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+ls -la
+ped
+pwd
+pwd
+pwd
+open -a Safari
+open -a Xcode
+open -a Safari
+open -a Safari &
+open -a Safari
+open -a Safari &
