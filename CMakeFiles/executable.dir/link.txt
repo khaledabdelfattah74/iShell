@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++14 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/executable.dir/Shell/main.cpp.o CMakeFiles/executable.dir/Shell/executer.cpp.o CMakeFiles/executable.dir/Shell/parser.cpp.o  -o executable 

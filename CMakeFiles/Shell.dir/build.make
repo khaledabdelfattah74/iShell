@@ -49,50 +49,80 @@ CMAKE_SOURCE_DIR = /Users/khaledabdelfattah/Documents/workspace/OperatingSystems
 CMAKE_BINARY_DIR = /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell
 
 # Include any dependencies generated for this target.
-include CMakeFiles/Shell.dir/depend.make
+include CMakeFiles/shell.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/Shell.dir/progress.make
+include CMakeFiles/shell.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/Shell.dir/flags.make
+include CMakeFiles/shell.dir/flags.make
 
-CMakeFiles/Shell.dir/Shell/main.cpp.o: CMakeFiles/Shell.dir/flags.make
-CMakeFiles/Shell.dir/Shell/main.cpp.o: Shell/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Shell.dir/Shell/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Shell.dir/Shell/main.cpp.o -c /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp
+CMakeFiles/shell.dir/Shell/main.cpp.o: CMakeFiles/shell.dir/flags.make
+CMakeFiles/shell.dir/Shell/main.cpp.o: Shell/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shell.dir/Shell/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/Shell/main.cpp.o -c /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp
 
-CMakeFiles/Shell.dir/Shell/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Shell.dir/Shell/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp > CMakeFiles/Shell.dir/Shell/main.cpp.i
+CMakeFiles/shell.dir/Shell/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/Shell/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp > CMakeFiles/shell.dir/Shell/main.cpp.i
 
-CMakeFiles/Shell.dir/Shell/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Shell.dir/Shell/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp -o CMakeFiles/Shell.dir/Shell/main.cpp.s
+CMakeFiles/shell.dir/Shell/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/Shell/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp -o CMakeFiles/shell.dir/Shell/main.cpp.s
 
-# Object files for target Shell
-Shell_OBJECTS = \
-"CMakeFiles/Shell.dir/Shell/main.cpp.o"
+CMakeFiles/shell.dir/Shell/executer.cpp.o: CMakeFiles/shell.dir/flags.make
+CMakeFiles/shell.dir/Shell/executer.cpp.o: Shell/executer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/shell.dir/Shell/executer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/Shell/executer.cpp.o -c /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.cpp
 
-# External object files for target Shell
-Shell_EXTERNAL_OBJECTS =
+CMakeFiles/shell.dir/Shell/executer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/Shell/executer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.cpp > CMakeFiles/shell.dir/Shell/executer.cpp.i
 
-Shell: CMakeFiles/Shell.dir/Shell/main.cpp.o
-Shell: CMakeFiles/Shell.dir/build.make
-Shell: CMakeFiles/Shell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Shell"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Shell.dir/link.txt --verbose=$(VERBOSE)
+CMakeFiles/shell.dir/Shell/executer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/Shell/executer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.cpp -o CMakeFiles/shell.dir/Shell/executer.cpp.s
+
+CMakeFiles/shell.dir/Shell/parser.cpp.o: CMakeFiles/shell.dir/flags.make
+CMakeFiles/shell.dir/Shell/parser.cpp.o: Shell/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/shell.dir/Shell/parser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/Shell/parser.cpp.o -c /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.cpp
+
+CMakeFiles/shell.dir/Shell/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/Shell/parser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.cpp > CMakeFiles/shell.dir/Shell/parser.cpp.i
+
+CMakeFiles/shell.dir/Shell/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/Shell/parser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.cpp -o CMakeFiles/shell.dir/Shell/parser.cpp.s
+
+# Object files for target shell
+shell_OBJECTS = \
+"CMakeFiles/shell.dir/Shell/main.cpp.o" \
+"CMakeFiles/shell.dir/Shell/executer.cpp.o" \
+"CMakeFiles/shell.dir/Shell/parser.cpp.o"
+
+# External object files for target shell
+shell_EXTERNAL_OBJECTS =
+
+shell: CMakeFiles/shell.dir/Shell/main.cpp.o
+shell: CMakeFiles/shell.dir/Shell/executer.cpp.o
+shell: CMakeFiles/shell.dir/Shell/parser.cpp.o
+shell: CMakeFiles/shell.dir/build.make
+shell: CMakeFiles/shell.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable shell"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Shell.dir/build: Shell
+CMakeFiles/shell.dir/build: shell
 
-.PHONY : CMakeFiles/Shell.dir/build
+.PHONY : CMakeFiles/shell.dir/build
 
-CMakeFiles/Shell.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/Shell.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/Shell.dir/clean
+CMakeFiles/shell.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/shell.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/shell.dir/clean
 
-CMakeFiles/Shell.dir/depend:
-	cd /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles/Shell.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/Shell.dir/depend
+CMakeFiles/shell.dir/depend:
+	cd /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles/shell.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/shell.dir/depend
 

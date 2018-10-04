@@ -7,14 +7,9 @@
 //
 
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <unistd.h>
+#include <string>
 
 #include "parser.hpp"
-#include "parsed_cmd.hpp"
 #include "executer.hpp"
 
 using namespace std;
@@ -22,11 +17,18 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     string cmd;
-    int status;
+    string prompt = "shell >> ";
+    int status = 1;
     
     do {
+        cout << prompt;
         getline(cin, cmd);
-        
+        parsed_cmd command = parse(cmd);
+        if (command.is_valid) {
+            execute(command);
+        } else {
+            printf("- shell: Invalid command\n");
+        }
     } while (status);
     return 0;
 }

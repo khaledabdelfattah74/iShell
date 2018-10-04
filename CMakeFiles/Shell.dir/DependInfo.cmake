@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp" "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles/Shell.dir/Shell/main.cpp.o"
+  "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.cpp" "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles/shell.dir/Shell/executer.cpp.o"
+  "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp" "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles/shell.dir/Shell/main.cpp.o"
+  "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.cpp" "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles/shell.dir/Shell/parser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

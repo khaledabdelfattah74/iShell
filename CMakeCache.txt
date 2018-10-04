@@ -131,7 +131,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=un
+CMAKE_PROJECT_NAME:STATIC=executable
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ranlib
@@ -197,6 +197,18 @@ Shell_BINARY_DIR:STATIC=/Users/khaledabdelfattah/Documents/workspace/OperatingSy
 
 //Value Computed by CMake
 Shell_SOURCE_DIR:STATIC=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell
+
+//Value Computed by CMake
+executable_BINARY_DIR:STATIC=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell
+
+//Value Computed by CMake
+executable_SOURCE_DIR:STATIC=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell
+
+//Value Computed by CMake
+shell_BINARY_DIR:STATIC=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell
+
+//Value Computed by CMake
+shell_SOURCE_DIR:STATIC=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell
 
 //Value Computed by CMake
 un_BINARY_DIR:STATIC=/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell

@@ -111,17 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named un
+# Target rules for targets named executable
 
 # Build rule for target.
-un: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 un
-.PHONY : un
+executable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 executable
+.PHONY : executable
 
 # fast build rule for target.
-un/fast:
-	$(MAKE) -f CMakeFiles/un.dir/build.make CMakeFiles/un.dir/build
-.PHONY : un/fast
+executable/fast:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/build
+.PHONY : executable/fast
+
+Shell/executer.o: Shell/executer.cpp.o
+
+.PHONY : Shell/executer.o
+
+# target to build an object file
+Shell/executer.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/executer.cpp.o
+.PHONY : Shell/executer.cpp.o
+
+Shell/executer.i: Shell/executer.cpp.i
+
+.PHONY : Shell/executer.i
+
+# target to preprocess a source file
+Shell/executer.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/executer.cpp.i
+.PHONY : Shell/executer.cpp.i
+
+Shell/executer.s: Shell/executer.cpp.s
+
+.PHONY : Shell/executer.s
+
+# target to generate assembly for a file
+Shell/executer.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/executer.cpp.s
+.PHONY : Shell/executer.cpp.s
 
 Shell/main.o: Shell/main.cpp.o
 
@@ -129,7 +156,7 @@ Shell/main.o: Shell/main.cpp.o
 
 # target to build an object file
 Shell/main.cpp.o:
-	$(MAKE) -f CMakeFiles/un.dir/build.make CMakeFiles/un.dir/Shell/main.cpp.o
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/main.cpp.o
 .PHONY : Shell/main.cpp.o
 
 Shell/main.i: Shell/main.cpp.i
@@ -138,7 +165,7 @@ Shell/main.i: Shell/main.cpp.i
 
 # target to preprocess a source file
 Shell/main.cpp.i:
-	$(MAKE) -f CMakeFiles/un.dir/build.make CMakeFiles/un.dir/Shell/main.cpp.i
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/main.cpp.i
 .PHONY : Shell/main.cpp.i
 
 Shell/main.s: Shell/main.cpp.s
@@ -147,8 +174,35 @@ Shell/main.s: Shell/main.cpp.s
 
 # target to generate assembly for a file
 Shell/main.cpp.s:
-	$(MAKE) -f CMakeFiles/un.dir/build.make CMakeFiles/un.dir/Shell/main.cpp.s
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/main.cpp.s
 .PHONY : Shell/main.cpp.s
+
+Shell/parser.o: Shell/parser.cpp.o
+
+.PHONY : Shell/parser.o
+
+# target to build an object file
+Shell/parser.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/parser.cpp.o
+.PHONY : Shell/parser.cpp.o
+
+Shell/parser.i: Shell/parser.cpp.i
+
+.PHONY : Shell/parser.i
+
+# target to preprocess a source file
+Shell/parser.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/parser.cpp.i
+.PHONY : Shell/parser.cpp.i
+
+Shell/parser.s: Shell/parser.cpp.s
+
+.PHONY : Shell/parser.s
+
+# target to generate assembly for a file
+Shell/parser.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/parser.cpp.s
+.PHONY : Shell/parser.cpp.s
 
 # Help Target
 help:
@@ -158,10 +212,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... un"
+	@echo "... executable"
+	@echo "... Shell/executer.o"
+	@echo "... Shell/executer.i"
+	@echo "... Shell/executer.s"
 	@echo "... Shell/main.o"
 	@echo "... Shell/main.i"
 	@echo "... Shell/main.s"
+	@echo "... Shell/parser.o"
+	@echo "... Shell/parser.i"
+	@echo "... Shell/parser.s"
 .PHONY : help
 
 
