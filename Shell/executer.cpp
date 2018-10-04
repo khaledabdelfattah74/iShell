@@ -27,7 +27,7 @@ void execute_exit() {
 
 // Write line into the log file.
 void signal_handler(int sig_id) {
-    write_into_processes_logger(sig_id);
+    write_into_processes_logger(getpid());
 }
 
 void execute_system_calls(parsed_cmd command) {

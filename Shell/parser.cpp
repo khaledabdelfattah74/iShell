@@ -18,6 +18,7 @@ void set_args(parsed_cmd &command) {
     }
     command.size = (int) splited_cmd.size();
     command.args = new char *[command.size + 1];
+    command.args[command.size] = nullptr;
     for (int i = 0; i < splited_cmd.size(); i++) {
         command.args[i] = new char[splited_cmd[i].size()];
         strcpy(command.args[i], splited_cmd[i].c_str());
@@ -29,8 +30,10 @@ void set_validity(parsed_cmd &command) {
 }
 
 void set_cmd_type(parsed_cmd &command) {
-    command.is_background =
-                (command.size == 2 && strlen(command.args[1]) == 1 && command.args[1][0] == '&');
+    if (command.size > 1 && command.args[command.size - 1][0] == '&') {
+        command.is_background = true;
+        command.args[command.size - 1] = nullptr;
+    }
 }
 
 parsed_cmd parse(string line) {

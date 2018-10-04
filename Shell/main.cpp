@@ -32,7 +32,6 @@ int main(int argc, const char * argv[]) {
         } else {
             printf("- shell: Invalid command\n");
         }
-        delete [] command.args;
     } while (status);
     return 0;
 }
