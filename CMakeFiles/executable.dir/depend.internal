@@ -4,6 +4,7 @@
 CMakeFiles/executable.dir/Shell/executer.cpp.o
  /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.cpp
  /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
+ /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/files_handler/file_handler.hpp
  /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
 CMakeFiles/executable.dir/Shell/main.cpp.o
  /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp

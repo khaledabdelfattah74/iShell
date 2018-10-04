@@ -7,14 +7,15 @@
 //
 
 #include "executer.hpp"
+#include "file_handler.hpp"
 
 char error_prompt[] = "- shell";
 
-void signal_handler(int sig_id) {
-    // Write line into the log file
-}
-
 void execute_cd(parsed_cmd command) {
+    if (command.args[1] == NULL) {
+        perror(error_prompt);
+        return;
+    }
     if (chdir(command.args[1]) != 0)
         perror(error_prompt);
 }
@@ -22,6 +23,11 @@ void execute_cd(parsed_cmd command) {
 void execute_exit() {
     printf("[Process completed]\n");
     exit(0);
+}
+
+// Write line into the log file.
+void signal_handler(int sig_id) {
+    write_into_processes_logger(sig_id);
 }
 
 void execute_system_calls(parsed_cmd command) {
@@ -56,4 +62,5 @@ void execute(parsed_cmd command) {
         execute_exit();
     else
         execute_system_calls(command);
+    write_into_commands_logger(command.cmd);
 }

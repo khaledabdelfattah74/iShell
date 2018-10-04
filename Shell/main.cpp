@@ -23,12 +23,16 @@ int main(int argc, const char * argv[]) {
     do {
         cout << prompt;
         getline(cin, cmd);
+        // Parsing process.
         parsed_cmd command = parse(cmd);
+        
+        // Execution of commands.
         if (command.is_valid) {
             execute(command);
         } else {
             printf("- shell: Invalid command\n");
         }
+        delete [] command.args;
     } while (status);
     return 0;
 }
