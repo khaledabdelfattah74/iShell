@@ -150,6 +150,33 @@ Shell/executer.cpp.s:
 	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/executer.cpp.s
 .PHONY : Shell/executer.cpp.s
 
+Shell/file_handler.o: Shell/file_handler.cpp.o
+
+.PHONY : Shell/file_handler.o
+
+# target to build an object file
+Shell/file_handler.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/file_handler.cpp.o
+.PHONY : Shell/file_handler.cpp.o
+
+Shell/file_handler.i: Shell/file_handler.cpp.i
+
+.PHONY : Shell/file_handler.i
+
+# target to preprocess a source file
+Shell/file_handler.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/file_handler.cpp.i
+.PHONY : Shell/file_handler.cpp.i
+
+Shell/file_handler.s: Shell/file_handler.cpp.s
+
+.PHONY : Shell/file_handler.s
+
+# target to generate assembly for a file
+Shell/file_handler.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/file_handler.cpp.s
+.PHONY : Shell/file_handler.cpp.s
+
 Shell/main.o: Shell/main.cpp.o
 
 .PHONY : Shell/main.o
@@ -216,6 +243,9 @@ help:
 	@echo "... Shell/executer.o"
 	@echo "... Shell/executer.i"
 	@echo "... Shell/executer.s"
+	@echo "... Shell/file_handler.o"
+	@echo "... Shell/file_handler.i"
+	@echo "... Shell/file_handler.s"
 	@echo "... Shell/main.o"
 	@echo "... Shell/main.i"
 	@echo "... Shell/main.s"

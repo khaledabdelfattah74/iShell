@@ -6,3 +6,30 @@ ls
 ls -l
 cd ..
 pwd
+ls -la
+ls -l
+pwd
+ls
+ls -la
+ls
+ls -la
+pwd
+ls
+ls -la
+pwd
+pwd
+ls
+ls -la
+pwd
+pwd
+pwd
+pwd
+pwd
+ls
+ls -la
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd

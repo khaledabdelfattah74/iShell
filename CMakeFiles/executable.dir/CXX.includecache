@@ -9,8 +9,8 @@
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.cpp
 executer.hpp
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
-files_handler/file_handler.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/files_handler/file_handler.hpp
+file_handler.hpp
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.hpp
 
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
 stdio.h
@@ -28,7 +28,11 @@ unistd.h
 parser.hpp
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
 
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/files_handler/file_handler.hpp
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.cpp
+file_handler.hpp
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.hpp
+
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.hpp
 stdio.h
 -
 string

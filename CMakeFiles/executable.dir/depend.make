@@ -3,8 +3,11 @@
 
 CMakeFiles/executable.dir/Shell/executer.cpp.o: Shell/executer.cpp
 CMakeFiles/executable.dir/Shell/executer.cpp.o: Shell/executer.hpp
-CMakeFiles/executable.dir/Shell/executer.cpp.o: Shell/files_handler/file_handler.hpp
+CMakeFiles/executable.dir/Shell/executer.cpp.o: Shell/file_handler.hpp
 CMakeFiles/executable.dir/Shell/executer.cpp.o: Shell/parser.hpp
+
+CMakeFiles/executable.dir/Shell/file_handler.cpp.o: Shell/file_handler.cpp
+CMakeFiles/executable.dir/Shell/file_handler.cpp.o: Shell/file_handler.hpp
 
 CMakeFiles/executable.dir/Shell/main.cpp.o: Shell/executer.hpp
 CMakeFiles/executable.dir/Shell/main.cpp.o: Shell/main.cpp
