@@ -446,6 +446,7 @@ open -a Safari
 open -a Safari &
 open -a Safari
 open -a Safari &
+<<<<<<< HEAD
 pwd
 open -a Safari &
 ls
@@ -480,3 +481,5 @@ ls
 ls -l
 ls -la
 git status
+=======
+>>>>>>> c6d983e7ea17d57e644669d9d83de51e42fc6e45

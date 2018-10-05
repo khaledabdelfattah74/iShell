@@ -230,6 +230,7 @@ Child Process was terminated: id = 19334
 Child Process was terminated: id = 19334
 Child Process was terminated: id = 19760
 Child Process was terminated: id = 19760
+<<<<<<< HEAD
 Child Process was terminated: id = 20486
 Child Process was terminated: id = 20486
 Child Process was terminated: id = 21654
@@ -256,3 +257,5 @@ Child Process was terminated: id = 27448
 Child Process was terminated: id = 27448
 Child Process was terminated: id = 27448
 Child Process was terminated: id = 27448
+=======
+>>>>>>> c6d983e7ea17d57e644669d9d83de51e42fc6e45

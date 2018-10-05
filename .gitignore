@@ -32,5 +32,8 @@ DerivedData/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 
+CMakeFiles/
+*.txt
+Shell.xcodeproj/
 
 # End of https://www.gitignore.io/api/xcode
