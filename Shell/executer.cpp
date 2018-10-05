@@ -9,7 +9,8 @@
 #include "executer.hpp"
 #include "file_handler.hpp"
 
-char error_prompt[] = "- shell";
+char error_prompt[] = "- shell", prompt[] = "shell >>";
+
 
 void execute_cd(parsed_cmd command) {
     if (command.args[1] == NULL) {
@@ -63,4 +64,5 @@ void execute(parsed_cmd command) {
     else
         execute_system_calls(command);
     write_into_commands_logger(command.cmd);
+    
 }

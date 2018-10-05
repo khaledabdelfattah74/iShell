@@ -446,3 +446,37 @@ open -a Safari
 open -a Safari &
 open -a Safari
 open -a Safari &
+pwd
+open -a Safari &
+ls
+ls -la
+open -a Google\ Chrome &
+ls
+ls -la
+open -a Safari &
+pwd
+ls
+open -a Safari
+open -a Safari &
+ls -la
+pwd
+cd ..
+pwd
+cd ..
+pwd
+cd ..
+cd arduino
+pwd
+ls
+cd morse_code
+ls
+open morse_code.ino
+cd ..
+pwd
+cd ..
+pwd
+cd ..
+ls
+ls -l
+ls -la
+git status

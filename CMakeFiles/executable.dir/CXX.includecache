@@ -6,36 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.cpp
-executer.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
-file_handler.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.hpp
-
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
-stdio.h
--
-stdlib.h
--
-signal.h
--
-sys/types.h
--
-sys/wait.h
--
-unistd.h
--
-parser.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
-
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.hpp
-stdio.h
--
-string
--
-stdlib.h
--
-
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.cpp
 parser.hpp
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
