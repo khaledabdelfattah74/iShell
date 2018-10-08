@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-=======
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.cpp
-executer.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
-file_handler.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.hpp
-
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
 stdio.h
 -
@@ -30,18 +22,15 @@ unistd.h
 parser.hpp
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
 
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.hpp
-stdio.h
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp
+iostream
 -
 string
 -
-stdlib.h
--
-
->>>>>>> c6d983e7ea17d57e644669d9d83de51e42fc6e45
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.cpp
 parser.hpp
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
+executer.hpp
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
 
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
 stdio.h

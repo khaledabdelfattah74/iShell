@@ -41,13 +41,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shell/main.cpp"
-            timestampString = "560362246.5936379"
+            filePath = "Shell/executer.cpp"
+            timestampString = "560446101.3895659"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "main(int argc, const char * argv[])"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "execute_system_calls(parsed_cmd command)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +57,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shell/main.cpp"
-            timestampString = "560362246.5936379"
+            filePath = "Shell/file_handler.cpp"
+            timestampString = "560446727.173878"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "main(int argc, const char * argv[])"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "write_into_commands_logger(string command)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

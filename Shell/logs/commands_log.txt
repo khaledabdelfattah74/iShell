@@ -483,3 +483,37 @@ ls -la
 git status
 =======
 >>>>>>> c6d983e7ea17d57e644669d9d83de51e42fc6e45
+ls
+git status
+open -a Safari
+ls -la
+cd Shell
+pwd
+open -a googlechrome
+ls
+ls -la
+ls &
+pwd
+ls -la
+open -a Safari &
+ls
+open -a Safari &
+ls
+ls -l
+pwd
+pwd
+cd
+pwd
+open -a Safari &
+pwd
+pwd
+ls -la
+ls
+ls -la
+open -a Safari &
+ls -la
+ls
+ls -la
+open -a Safari &
+ls -la
+[A[A[A[A[A

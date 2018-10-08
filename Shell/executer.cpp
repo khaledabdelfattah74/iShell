@@ -46,13 +46,16 @@ void execute_system_calls(parsed_cmd command) {
         if (chld_status == -1)
             perror(error_prompt);
         exit(EXIT_FAILURE);
-    }
-    // If the command is not a back ground command,
-    // then force the parent to wait until the chile process finish its work.
-    if (!command.is_background) {
-        do {
-            wpid = waitpid(pid, &status, WUNTRACED);
-        } while (!WIFEXITED(status) && WIFSIGNALED(status));
+    } else if (pid < 0) { // Error in forking.
+        perror(error_prompt);
+    } else {    // Parent process.
+        // If the command is not a back ground command,
+        // then force the parent to wait until the chile process finish its work.
+        if (!command.is_background) {
+            do {
+                wpid = waitpid(pid, &status, WUNTRACED);
+            } while (!WIFEXITED(status) && WIFSIGNALED(status));
+        }
     }
 }
 
