@@ -8,7 +8,9 @@
 
 #include "parser.hpp"
 
+// Parsing args.
 void set_args(parsed_cmd &command) {
+    // Spliting command string into vector of strings.
     string line = command.cmd;
     istringstream stream(line);
     vector<string> splited_cmd;
@@ -16,7 +18,10 @@ void set_args(parsed_cmd &command) {
     while (stream >> str) {
         splited_cmd.push_back(str);
     }
+    // Set the size of arguments.
     command.size = (int) splited_cmd.size();
+    
+    // Initializing arguments.
     command.args = new char *[command.size + 1];
     command.args[command.size] = nullptr;
     for (int i = 0; i < splited_cmd.size(); i++) {

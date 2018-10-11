@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/file_handler.cpp" "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles/executable.dir/Shell/file_handler.cpp.o"
   "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp" "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles/executable.dir/Shell/main.cpp.o"
   "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.cpp" "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles/executable.dir/Shell/parser.cpp.o"
+  "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/utilities.cpp" "/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/CMakeFiles/executable.dir/Shell/utilities.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

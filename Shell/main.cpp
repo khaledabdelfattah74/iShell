@@ -11,15 +11,16 @@
 
 #include "parser.hpp"
 #include "executer.hpp"
+#include "utilities.hpp"
 
 using namespace std;
 
-
 int main(int argc, const char * argv[]) {
     string cmd;
-    string prompt = "shell >> ";
     int status = 1;
-    
+    set_environment();
+    string prompt = get_prompt();
+
     do {
         cout << prompt;
         getline(cin, cmd);

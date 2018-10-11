@@ -8,11 +8,16 @@ CMakeFiles/executable.dir/Shell/executer.cpp.o: Shell/parser.hpp
 
 CMakeFiles/executable.dir/Shell/file_handler.cpp.o: Shell/file_handler.cpp
 CMakeFiles/executable.dir/Shell/file_handler.cpp.o: Shell/file_handler.hpp
+CMakeFiles/executable.dir/Shell/file_handler.cpp.o: Shell/utilities.hpp
 
 CMakeFiles/executable.dir/Shell/main.cpp.o: Shell/executer.hpp
 CMakeFiles/executable.dir/Shell/main.cpp.o: Shell/main.cpp
 CMakeFiles/executable.dir/Shell/main.cpp.o: Shell/parser.hpp
+CMakeFiles/executable.dir/Shell/main.cpp.o: Shell/utilities.hpp
 
 CMakeFiles/executable.dir/Shell/parser.cpp.o: Shell/parser.cpp
 CMakeFiles/executable.dir/Shell/parser.cpp.o: Shell/parser.hpp
+
+CMakeFiles/executable.dir/Shell/utilities.cpp.o: Shell/utilities.cpp
+CMakeFiles/executable.dir/Shell/utilities.cpp.o: Shell/utilities.hpp
 

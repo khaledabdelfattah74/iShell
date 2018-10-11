@@ -67,5 +67,4 @@ void execute(parsed_cmd command) {
     else
         execute_system_calls(command);
     write_into_commands_logger(command.cmd);
-    
 }

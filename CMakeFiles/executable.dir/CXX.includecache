@@ -31,6 +31,8 @@ parser.hpp
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
 executer.hpp
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
+utilities.hpp
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/utilities.hpp
 
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
 stdio.h
@@ -42,5 +44,17 @@ cstring
 sstream
 -
 vector
+-
+
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/utilities.cpp
+utilities.hpp
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/utilities.hpp
+
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/utilities.hpp
+stdio.h
+-
+string
+-
+sys/stat.h
 -
 

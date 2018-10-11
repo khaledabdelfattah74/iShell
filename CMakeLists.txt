@@ -8,4 +8,5 @@ add_executable(
 	Shell/executer.cpp
 	Shell/parser.cpp
 	Shell/file_handler.cpp
+	Shell/utilities.cpp
 )

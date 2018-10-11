@@ -231,6 +231,33 @@ Shell/parser.cpp.s:
 	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/parser.cpp.s
 .PHONY : Shell/parser.cpp.s
 
+Shell/utilities.o: Shell/utilities.cpp.o
+
+.PHONY : Shell/utilities.o
+
+# target to build an object file
+Shell/utilities.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/utilities.cpp.o
+.PHONY : Shell/utilities.cpp.o
+
+Shell/utilities.i: Shell/utilities.cpp.i
+
+.PHONY : Shell/utilities.i
+
+# target to preprocess a source file
+Shell/utilities.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/utilities.cpp.i
+.PHONY : Shell/utilities.cpp.i
+
+Shell/utilities.s: Shell/utilities.cpp.s
+
+.PHONY : Shell/utilities.s
+
+# target to generate assembly for a file
+Shell/utilities.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/Shell/utilities.cpp.s
+.PHONY : Shell/utilities.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +279,9 @@ help:
 	@echo "... Shell/parser.o"
 	@echo "... Shell/parser.i"
 	@echo "... Shell/parser.s"
+	@echo "... Shell/utilities.o"
+	@echo "... Shell/utilities.i"
+	@echo "... Shell/utilities.s"
 .PHONY : help
 
 
