@@ -35,8 +35,11 @@ void set_validity(parsed_cmd &command) {
 }
 
 void set_cmd_type(parsed_cmd &command) {
-    if (command.size > 1 && command.args[command.size - 1][0] == '&') {
+    if (command.size > 1 &&
+            command.args[command.size - 1][0] == '&') {
         command.is_background = true;
+        if (strlen(command.args[command.size - 1]) > 1)
+            command.is_valid = false;
         command.args[command.size - 1] = nullptr;
     }
 }

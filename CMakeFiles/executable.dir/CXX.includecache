@@ -6,33 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
-stdio.h
--
-stdlib.h
--
-signal.h
--
-sys/types.h
--
-sys/wait.h
--
-unistd.h
--
+/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.cpp
 parser.hpp
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
-
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/main.cpp
-iostream
--
-string
--
-parser.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
-executer.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/executer.hpp
-utilities.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/utilities.hpp
 
 /Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/parser.hpp
 stdio.h
@@ -44,17 +20,5 @@ cstring
 sstream
 -
 vector
--
-
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/utilities.cpp
-utilities.hpp
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/utilities.hpp
-
-/Users/khaledabdelfattah/Documents/workspace/OperatingSystems/Shell/Shell/utilities.hpp
-stdio.h
--
-string
--
-sys/stat.h
 -
 
