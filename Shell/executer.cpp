@@ -55,6 +55,8 @@ void execute_system_calls(parsed_cmd command) {
             do {
                 wpid = waitpid(pid, &status, WUNTRACED);
             } while (!WIFEXITED(status) && WIFSIGNALED(status));
+        } else {
+            sleep(1);
         }
     }
 }
